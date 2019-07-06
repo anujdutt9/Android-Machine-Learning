@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f26b707d1b408636a63233a7bca5437d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fa677fcd54d7e5bb660217a104d89bfd/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fb31b091677ee29c7af2fdbb09694d63/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/4b65c16d0bfd08f8f858a2f0dd7f11b5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/9de57c10adf5926da82de0337a44a2ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/aafe325e860813b503a2cddbd77372fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/dee503f41866f1291a33118cf743ed9d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/efd5e84da6874feffec825dfe6c73265/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/57b13259c1acf37e7d8630f0a3ec0c65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d2b29cc973b7ad5b5a4b23ca9e34a239/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8c07a7adbb58193e7e0629bad14416e8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/5c5c84ff36e78b71705005ef8e7b0564/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/585a12f67dccf9a1b15f22e13ce123a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/e162fb2443376636de970177b25bec8d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ee884e62800de61abf36770d3e4c0f71/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f8a0c203a0c4488e3f178ce1bcf5f0b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d50c1f551ccfcf5e4b4dfbe060d4b7cc/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/3be8653f6e41ddc1f40a6b27ed776499/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/213f49368ddf70b42ef16f2fcbad5fbf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/769cf427d2ce3e24878d6f4cdd570552/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8314842f7a8ed6cf0aa68ed8a7d122a4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ea4719d9b2db43e0cb15ed9cb995740e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/014b66a48b83466e68b297729c9ea72a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d5d77951eb2e195c29743f525dadb9a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/2453d6a7d7a7c4c05894cfddd87c92cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/a5b53871afd54c6a361593e5b7f3237e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/6ac5b4727cd0aa6142b02cce48d9cf5a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:3:11-41
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fb31b091677ee29c7af2fdbb09694d63/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fb31b091677ee29c7af2fdbb09694d63/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d50c1f551ccfcf5e4b4dfbe060d4b7cc/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d50c1f551ccfcf5e4b4dfbe060d4b7cc/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:11:13-44
+activity#com.example.basic_ui.MainActivity
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f26b707d1b408636a63233a7bca5437d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f26b707d1b408636a63233a7bca5437d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fa677fcd54d7e5bb660217a104d89bfd/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fa677fcd54d7e5bb660217a104d89bfd/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fb31b091677ee29c7af2fdbb09694d63/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/fb31b091677ee29c7af2fdbb09694d63/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/4b65c16d0bfd08f8f858a2f0dd7f11b5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/4b65c16d0bfd08f8f858a2f0dd7f11b5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/9de57c10adf5926da82de0337a44a2ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/9de57c10adf5926da82de0337a44a2ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/aafe325e860813b503a2cddbd77372fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/aafe325e860813b503a2cddbd77372fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/dee503f41866f1291a33118cf743ed9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/dee503f41866f1291a33118cf743ed9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/efd5e84da6874feffec825dfe6c73265/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/efd5e84da6874feffec825dfe6c73265/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/57b13259c1acf37e7d8630f0a3ec0c65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/57b13259c1acf37e7d8630f0a3ec0c65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d2b29cc973b7ad5b5a4b23ca9e34a239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d2b29cc973b7ad5b5a4b23ca9e34a239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8c07a7adbb58193e7e0629bad14416e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8c07a7adbb58193e7e0629bad14416e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/5c5c84ff36e78b71705005ef8e7b0564/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/5c5c84ff36e78b71705005ef8e7b0564/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/585a12f67dccf9a1b15f22e13ce123a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/585a12f67dccf9a1b15f22e13ce123a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/e162fb2443376636de970177b25bec8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/e162fb2443376636de970177b25bec8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ee884e62800de61abf36770d3e4c0f71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ee884e62800de61abf36770d3e4c0f71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f8a0c203a0c4488e3f178ce1bcf5f0b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f8a0c203a0c4488e3f178ce1bcf5f0b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/f6bb87dab89a1bb5137396c0adbd69cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d50c1f551ccfcf5e4b4dfbe060d4b7cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d50c1f551ccfcf5e4b4dfbe060d4b7cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/3be8653f6e41ddc1f40a6b27ed776499/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/3be8653f6e41ddc1f40a6b27ed776499/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/213f49368ddf70b42ef16f2fcbad5fbf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/213f49368ddf70b42ef16f2fcbad5fbf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/769cf427d2ce3e24878d6f4cdd570552/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/769cf427d2ce3e24878d6f4cdd570552/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8314842f7a8ed6cf0aa68ed8a7d122a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/8314842f7a8ed6cf0aa68ed8a7d122a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ea4719d9b2db43e0cb15ed9cb995740e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/ea4719d9b2db43e0cb15ed9cb995740e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/014b66a48b83466e68b297729c9ea72a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/014b66a48b83466e68b297729c9ea72a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d5d77951eb2e195c29743f525dadb9a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/d5d77951eb2e195c29743f525dadb9a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/2453d6a7d7a7c4c05894cfddd87c92cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/2453d6a7d7a7c4c05894cfddd87c92cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/a5b53871afd54c6a361593e5b7f3237e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/a5b53871afd54c6a361593e5b7f3237e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/6ac5b4727cd0aa6142b02cce48d9cf5a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anujdutt/.gradle/caches/transforms-2/files-2.1/6ac5b4727cd0aa6142b02cce48d9cf5a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anujdutt/Downloads/Android-Machine-Learning/BasicUI/app/src/main/AndroidManifest.xml
