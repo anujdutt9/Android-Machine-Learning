@@ -62,3 +62,22 @@ file = tf.gfile.FastGFile(name="./saved_model/optimized_frozen_model.pb",
 file.write(file_content=output_graph_def.SerializeToString())
 
 print("Optimized Model Saved at ./saved_model/optimized_frozen_model.pb")
+
+
+# ------------------------- Frozen Model to TFLite Model ------------------------------
+# Convert Frozen Model to TFLite Model
+converter = tf.lite.TFLiteConverter.from_frozen_graph(graph_def_file="./saved_model/frozen_linear_regression.pb",
+                                                      input_arrays=["input_features"],
+                                                      output_arrays=['y_out'],
+                                                      input_shapes={'input_features': [1, 1]})
+
+# Quantize Trained Model
+converter.post_training_quantize = True
+
+# Convert Frozen Model to TFLite Model
+tflite_model = converter.convert()
+
+# Save TFLite Model
+open("./saved_model/optimized_frozen_model.tflite", "wb").write(tflite_model)
+
+print("Optimized TFLite Model Saved at ./saved_model/optimized_frozen_model.tflite")
