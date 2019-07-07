@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Define Variables for Communicating with the Frozen Model
 
-    // Define Model Name with Path
+    // Define Frozen Model Name with Path
     // Path starts with "file:///model_path"
     private static final String MODEL_NAME = "file:///android_asset/optimized_frozen_model.pb";
 
