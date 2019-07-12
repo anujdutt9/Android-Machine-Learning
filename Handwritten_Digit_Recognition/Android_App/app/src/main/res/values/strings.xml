@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Handwritten Digit Recognition</string>
+    <string name="image_view_content_description">Image of a Digit</string>
+    <string name="predict_button_text">Predict Digit</string>
+    <string name="next_image_button_text">Load Next Image</string>
+    <string name="textView_text">Results appear here.</string>
+</resources>
