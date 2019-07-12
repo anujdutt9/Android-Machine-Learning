@@ -11,8 +11,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.Arrays;
-import java.util.Collections;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -121,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
         float[] results = makePrediction(pixelbuffer);
 
         // Log.d("Result", Arrays.toString(results));
+        printResults(results);
     }
 
 
@@ -144,6 +143,27 @@ public class MainActivity extends AppCompatActivity {
 
     // Function to find Max Value in Array and Return it's Index
     private void printResults(float[] results){
+        float maxVal = 0;
+        float secondMaxVal = 0;
+        int maxValIdx = 0;
+        int secondMaxValIdx = 0;
+
+        for (int i=0; i<10; i++){
+            if (results[i] > maxVal){
+                secondMaxVal = maxVal;
+                secondMaxValIdx = maxValIdx;
+                maxVal = results[i];
+                maxValIdx = i;
+            }
+            else if (results[i] < maxVal && results[i] > secondMaxVal){
+                secondMaxVal = results[i];
+                secondMaxValIdx = i;
+            }
+        }
+
+        String output = "Model Prediction: " + String.valueOf(maxValIdx)  +
+                ", Second Prediction: " + String.valueOf(secondMaxValIdx);
+        textView.setText(output);
     }
 
 
