@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather-Prediction-App</string>
+    <string name="predict_button">Predict Temperature</string>
+    <string name="max_temp">Max temp higher than previous day ?</string>
+    <string name="min_temp">Min temp higher than previous day ?</string>
+    <string name="mean_temp">Mean temp higher than previous day ?</string>
+    <string name="total_precip_temp">Precipitation higher than previous day ?</string>
+    <string name="results_text">Results are displayed here.</string>
+</resources>
