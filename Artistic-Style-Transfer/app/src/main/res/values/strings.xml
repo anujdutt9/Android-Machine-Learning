@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageStyleTransfer</string>
+    <string name="button">Style Transfer</string>
+</resources>
