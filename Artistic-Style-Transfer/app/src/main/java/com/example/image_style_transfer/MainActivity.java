@@ -7,15 +7,19 @@ import androidx.core.content.FileProvider;
 import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import org.tensorflow.contrib.android.TensorFlowInferenceInterface;
@@ -57,6 +61,38 @@ public class MainActivity extends AppCompatActivity {
     // Array to contain processed [rotate + scale] Image Bitmap Values
     private float[] floatValues = new float[IMAGE_WIDTH * IMAGE_HEIGHT * 3];
 
+    // Array for Style Images
+    private int[] styleImageIDList = {
+            R.drawable.style0,
+            R.drawable.style1,
+            R.drawable.style2,
+            R.drawable.style3,
+            R.drawable.style4,
+            R.drawable.style5,
+            R.drawable.style6,
+            R.drawable.style7,
+            R.drawable.style8,
+            R.drawable.style9,
+            R.drawable.style10,
+            R.drawable.style11,
+            R.drawable.style12,
+            R.drawable.style13,
+            R.drawable.style14,
+            R.drawable.style15,
+            R.drawable.style16,
+            R.drawable.style17,
+            R.drawable.style18,
+            R.drawable.style19,
+            R.drawable.style20,
+            R.drawable.style21,
+            R.drawable.style22,
+            R.drawable.style23,
+            R.drawable.style24,
+            R.drawable.style25};
+
+    // Selected Style Image; default value = 101
+    private int selectedStyleIdx = 101;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +104,31 @@ public class MainActivity extends AppCompatActivity {
 
         // Button to Stylize Image
         button = findViewById(R.id.button);
+
+        // Linear Layout for Showing Style Images in Horizontal Scroll Bar
+        LinearLayout gallery = findViewById(R.id.gallery);
+        LayoutInflater inflater = LayoutInflater.from(this);
+
+        // Grab all the Style images and show them in Horizontal Scroll Bar View
+        for (int i=0; i<26; i++){
+            View view = inflater.inflate(R.layout.item, gallery, false);
+            final ImageView imageView = view.findViewById(R.id.scrollImageView);
+            imageView.setImageResource(styleImageIDList[i]);
+            imageView.setId(i);
+            gallery.addView(view);
+
+            // Get Selected Image ID
+            imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    selectedStyleIdx = imageView.getId();
+                    Toast.makeText(getApplicationContext(), "Selected Style ID: "+ String.valueOf(selectedStyleIdx),
+                            Toast.LENGTH_LONG).show();
+                    Log.d("ImageID", String.valueOf(imageView.getId()));
+                }
+            });
+        }
+
 
         // Check App Permissions based on API Level
         if (Build.VERSION.SDK_INT >= 23){
@@ -182,19 +243,25 @@ public class MainActivity extends AppCompatActivity {
         // Style Values for Transfer
         float[] styleVals = new float[NUM_STYLES];
 
-        // ------------------ TEST ----------------
-        for (int i = 0; i < NUM_STYLES; ++i) {
-            styleVals[i] = 1.0f / NUM_STYLES;
-        }
-
         // Sample Float Values for a Specific Style
         // Each style has a different set of values as an array
-        //float[] vals = new float[] {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f};
+        float[] styleImageDefaultVals = new float[] {1.0f, 0.85f, 1.0f, 0.75f, 0.75f, 0.65f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 0.75f, 1.0f, 1.0f};
 
-        //for (int i = 0; i<vals.length-1; i++){
-            //styleVals[i] = vals[i];
-        //}
-        // ----------------------------------------
+        // ------------------ TEST ----------------
+        // If no style image selected, apply default style
+        if (selectedStyleIdx == 101){
+            for (int i = 0; i < NUM_STYLES; ++i) {
+                styleVals[i] = 1.0f / NUM_STYLES;
+            }
+            Toast.makeText(getApplicationContext(), "No Style Selected. Using Default Style.",
+                    Toast.LENGTH_LONG).show();
+        }
+        else{
+            for (int i = 0; i < NUM_STYLES; ++i) {
+                styleVals[i] = 0.0f;
+            }
+            styleVals[selectedStyleIdx] = styleImageDefaultVals[selectedStyleIdx];
+        }
         return styleVals;
     }
 
