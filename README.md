@@ -10,6 +10,8 @@
 
 **3.** Android Studio
 
+**4.** Python 3+
+
 # Project List
 
 |     Name      |                                   Aim                                  |       Status        |
